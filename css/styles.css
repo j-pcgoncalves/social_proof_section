@@ -167,6 +167,7 @@ h2 {
 
     .reviews {
         display: flex;
+        margin-top: 9rem;
     }
 
     .reviews > * + * {
