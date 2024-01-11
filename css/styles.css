@@ -6,3 +6,30 @@
     --color-neutral-light-grayish-magenta: hsl(300, 24%, 96%);
     --color-neutral-white: hsl(0, 0%, 100%);
 }
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.3rem;
+    background-image: url("../images/bg-pattern-top-mobile.svg"), 
+        url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    color: var(--color-primary-dark-magenta);
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
