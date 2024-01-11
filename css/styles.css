@@ -142,7 +142,7 @@ h2 {
     }
 
     .content {
-        width: 45%;
+        width: 40%;
     }
 
     .content p {
@@ -152,6 +152,7 @@ h2 {
     .ratings li {
         display: flex;
         align-items: center;
+        padding: 1.6rem 6rem 1.6rem 3.2rem;
     }
 
     .ratings li:nth-child(1) {
